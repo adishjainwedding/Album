@@ -2029,7 +2029,6 @@ a:focus {
 @media (max-width: 767px) {
   .site-footer {
     padding: 70px 0;
-    position: fixed;
   }
 }
 
@@ -4066,6 +4065,28 @@ a:focus {
 .cus-img{
   width: 300px;
   height: 300px;
+}
+
+.photo-header{
+  height: 500px;
+}
+
+@media (max-width: 1199px) {
+  .photo-header {
+    height: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  .photo-herder {
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-header {
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
