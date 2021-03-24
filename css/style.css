@@ -3149,12 +3149,12 @@ a:focus {
 
 .gallery-section .gallery-filters {
   text-align: left;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 767px) {
   .gallery-section .gallery-filters {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 

@@ -1,8 +1,8 @@
 import os
 # Function to rename multiple files
 def main():
-   i = 0
-   path="/home/kali/Website/lovely-wedding/images/photos/"
+   i = 89
+   path="/home/kali/Adish/images/gallery/Mandir/"
    for filename in os.listdir(path):
       my_dest ="AS_" + str(i) + ".jpg"
       my_source =path + filename
